@@ -1,0 +1,8 @@
+name: My First DevOps Pipeline
+on: [push]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, DevOps World! My pipeline is running!"
